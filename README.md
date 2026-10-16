@@ -1,4 +1,4 @@
-# Heartbeat Edge Pipeline
+# Never_Lose_a_HeartBeat
 
 An offline-capable biosignal pipeline for a small ARM64 Linux device. It reads two synthetic sensors over TCP, validates each response, saves samples in SQLite, calculates one-second results locally when the cloud is unavailable, and uploads frames to a Cloudflare Worker with D1 storage when connectivity returns.
 
