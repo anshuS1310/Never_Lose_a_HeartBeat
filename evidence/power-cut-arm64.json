@@ -1,0 +1,1 @@
+{"integrity": "ok", "sessions": [{"session": "523030cc", "samples": [11240, 11257], "cursors": [11240, 11257], "losses": [{"sensor": 1, "from_index": 11240, "to_index": null, "reason": "mock_restarted"}, {"sensor": 2, "from_index": 11257, "to_index": null, "reason": "mock_restarted"}]}, {"session": "0bd70577", "samples": [11349, 11373], "cursors": [11349, 11373], "losses": []}]}

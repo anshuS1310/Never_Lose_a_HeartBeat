@@ -1,0 +1,1 @@
+{"session": "684a5847", "storage": "64 MiB ext4 loop filesystem", "integrity": "ok", "expected_per_sensor": 18000, "sensors": {"1": {"saved": 10194, "losses": [{"from_index": 1566, "to_index": 9371, "reason": "buffer_overflow"}], "unaccounted": 0}, "2": {"saved": 10004, "losses": [{"from_index": 1447, "to_index": 9442, "reason": "buffer_overflow"}], "unaccounted": 0}}}

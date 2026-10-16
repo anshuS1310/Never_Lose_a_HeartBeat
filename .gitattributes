@@ -1,0 +1,10 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.toml text eol=lf
+*.sql text eol=lf
+*.service text eol=lf
+*.example text eol=lf
+deploy/pipeline text eol=lf
+*.pdf binary

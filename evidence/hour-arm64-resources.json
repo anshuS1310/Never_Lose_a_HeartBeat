@@ -1,0 +1,1 @@
+{"environment":{"architecture":"aarch64","cpu_count":4,"memory_limit_bytes":2068250624},"duration_seconds":3600.01,"pids":[908,916],"average_cpu_percent_one_core":108.69,"average_cpu_percent_device":27.17,"peak_memory_mb":44.7,"disk_written_mb":5644.12,"network_sent_mb":95.68,"network_interface":"enp0s1"}

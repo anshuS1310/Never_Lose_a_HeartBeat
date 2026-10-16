@@ -1,0 +1,20 @@
+[Unit]
+Description=Heartbeat Edge Pipeline
+After=network.target
+
+[Service]
+Type=simple
+User=heartbeat
+Group=heartbeat
+EnvironmentFile=/etc/heartbeat/pipeline.env
+WorkingDirectory=/opt/heartbeat
+ExecStart=/usr/local/bin/pipeline run
+Restart=always
+RestartSec=1
+StateDirectory=heartbeat
+MemoryMax=1800M
+CPUQuota=400%
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
